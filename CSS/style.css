@@ -1,0 +1,94 @@
+body{
+    background-color: aquamarine;
+    padding: 0%;
+    margin: 0%;
+    background-image: url('me.jpg');
+}
+
+nav{
+    background-color: cadetblue;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border: solid palevioletred;
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    height: 30px;
+    line-height: 20px;
+    padding: 0 40px;
+}
+
+nav li a:link{
+    color: coral;
+    text-decoration: none;
+}
+
+
+
+nav li a:hover{
+    background-color: #ffccff;
+    transition: .5s;
+    color: darkmagenta;
+    text-decoration: none;
+  }
+
+nav li a:active{
+    color: fuchsia;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+aside{
+    background-color: cyan;
+    width: 49%;
+    height: 81%;
+    text-align: center;
+    float: right;
+    border: solid orchid;
+    text-shadow: 2px 2px #ff0000;
+    color: white;
+}
+
+.cat{
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    background-color: darkturquoise;
+    width: 50%;
+    height: 40%;
+    text-align: center;
+    border: solid yellow;
+    text-shadow: 2px 2px #ff0000;
+    color: white;
+}
+article{
+    background-color: dodgerblue;
+    width:50%;
+    height:40%;
+    text-align: center;
+    border: solid violet;
+    text-shadow: 2px 2px #ff0000;
+    color: white;
+}
+footer{
+    background-color: darkslateblue;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: solid chartreuse;
+    text-shadow: 2px 2px #ff0000;
+    color: white;
+    line-height: 40px;
+}
