@@ -17,7 +17,7 @@ nav{
     height: 60px;
     text-align: center;
     border: solid palevioletred;
-    color: #0000ff;
+    color: white;
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
@@ -41,7 +41,7 @@ nav li a:link{
 nav li a:hover{
     background-color: pink;
     transition: .5s;
-    color: dodgerblue;
+    color: white;
     text-decoration: none;
   }
 
@@ -84,6 +84,7 @@ aside{
     border: solid orchid;
     text-shadow: 2px 2px #ff0000;
     color: white;
+    
 }
 
 .cat{
@@ -101,6 +102,8 @@ article{
     text-shadow: 2px 2px #ff0000;
     color: white;
 }
+
+
 footer{
     background-color: palevioletred;
     width: 100%;
