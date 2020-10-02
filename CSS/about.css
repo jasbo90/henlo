@@ -95,6 +95,7 @@ aside{
     background-color: cyan;
     width: 50%;
     height: 110%;
+    font-family: 'Lobster', cursive;
     text-align: center;
     float: right;
     border: solid orchid;
@@ -107,6 +108,7 @@ article{
     background-color: dodgerblue;
     width:50%;
     height:110%;
+    font-family: 'Lobster', cursive;
     text-align: center;
     border: solid violet;
     text-shadow: 2px 2px #ff0000;
